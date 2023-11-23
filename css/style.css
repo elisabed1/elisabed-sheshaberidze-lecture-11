@@ -1,6 +1,7 @@
 .s1{
     margin-top: 57px;
     margin-bottom: 77px;
+    gap: 10px;
 }
 .container{
     max-width: 1146px;
@@ -8,6 +9,7 @@
 }
 .card1{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -118,6 +120,7 @@ margin-bottom: 9px;
 .img{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
 }
 
 footer{
@@ -128,6 +131,7 @@ background: #000;
 padding-top: 6%;
 }
 .footer{
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
 }

@@ -1,0 +1,24 @@
+@media (max-width:1240px) {
+    .container{
+        width: 90%;
+    }
+    .card1{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact{
+        margin-top: 1px;
+    }
+}
+@media (max-width: 680px) {
+    .contact{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media (max-widht: 910px) {
+    .footer{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
